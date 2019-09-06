@@ -1,0 +1,77 @@
+//
+//  ViewControllerIds.swift
+//  BookLover
+//
+//  Created by ios 7 on 07/05/18.
+//  Copyright © 2018 iOS Team. All rights reserved.
+//
+
+import UIKit
+
+class ViewControllerIds: NSObject {
+    
+    static let Login = "LoginViewController"
+    static let ForgotPasword = "ForgotPasswordViewController"
+    static let Home = "HomeViewController"
+    static let Register = "RegisterViewController"
+    static let CompleteProfile = "CompleteProfileViewController"
+    static let Settings = "SettingsViewController"
+    static let PrivacySetting = "PrivacySettingViewController"
+    static let ProfilePrivacy = "ProfilePrivacyViewController"
+    static let ReviewsPrivacy = "ReviewsPrivacyViewController"
+    static let OtherPrivacy = "OtherPrivacyViewController"
+    static let AccountSetting = "AccountSettingViewController"
+    static let EmailVerification = "EmailVerificationViewController"
+    static let ResetPassword = "ResetPasswordViewController"
+    static let State = "StateViewController"
+    static let Country = "CountryViewController"
+    static let Notification = "AllNotificationViewController"
+    static let AllBooks = "AllBooksViewController"
+    static let AddFriend = "AddFriendViewController"
+    static let ShareTheBook = "ShareTheBookViewController"
+    static let ShowAllReview = "ShowAllReviewViewController"
+    static let SearchBook = "SearchBookViewController"
+    static let BookShelves = "BookShelvesViewController"
+    static let UserReview  = "UserReviwViewController"
+    static let MyBook = "MyBooksViewController"
+    static let BookDetail = "BookDetailViewController"
+    static let AddComment = "AddCommentViewController"
+    static let UserProfile =  "ProfileViewController"
+    static let Rating       = "RatingViewController"
+    static let DeleteAccount = "DeleteAccountViewController"
+    static let PrivacyPopUp = "PrivacyPopUpViewController"
+    static let shelves = "shelvesViewController"
+    static let ShelfType = "ShelfTypeViewController"
+    static let MyFriends    = "MyFriendsViewController"
+    static let AddFriends = "AddFriendViewController"
+    static let SearchMyFriends = "SearchMyFriendsViewController"
+    static let FilterAge = "FilterViewController"
+    static let AgeSelect = "AgeSelectViewController"
+    static let Chat      = "ChatListViewController"
+    static let ChatController = "ChatViewController"
+    static let EditDeleteReview = "EditDeleteReviewPopUp"
+    static let BlockPopUp = "BlockPopUp"
+    //Cell Identifier
+    static let BookReviewTableCell = "BookReviewTableCell"
+    static let BookCategoryTableCell = "BookCategoryTableViewCell"
+    static let BooksTableCell = "BooksTableViewCell"
+    static let NotificationCellIdentifier = "NotificationTableViewCell"
+    static let FriendRequestCellIdentifier = "FriendRequestTableViewCell"
+    static let ReadersCellIdentifier = "ReadersTableViewCell"
+    static let FbReadersCellIdentifier = "FBReadersTableViewCell"
+    static let BooksCollectionCell = "BooksCollectionViewCell"
+    static let ShowAllReviewCellIdentifier = "ShowAllReviewTableViewCell"
+    static let UserReviewCellIdentifier = "UserReviewTableViewCell"
+    static let UserReviewSectionCellIdentifier = "UserReviewSectionTableViewCell"
+    static let freindlistCellIdentifier = "ShareTheBookTableViewCell"
+    static let MyFriendsCellIdentifier = "MyFriendsTableViewCell"
+    static let FilerCellIdentifier = "FilterTableViewCell"
+    static let SearchMyMyfriendsCellIdentifier = "SearchMyFriendsTableViewCell"
+    static let CategaryCellIdentifier = "CategaryCollectionViewCell"
+    static let ChatListCellIndetifier = "ChatListTableViewCell"
+    static let SendMessageCellIndetifier = "SendMessageTableViewCell"
+    static let ReceviedMessageCellIndetifier = "ReceviedMessageTableViewCell"
+    static let NoDataFoundCellIndetifier   = "NoDataCollectionViewCell"
+    static let NoDataTableViewCell         = "NoDataTableViewCell"
+    static let SearchBookTableViewCell     = "SearchBookTableViewCell"
+}

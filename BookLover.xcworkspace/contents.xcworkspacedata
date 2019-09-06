@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:BookLover/Core Data/Friends+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:BookLover/Core Data/Friends+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:BookLover.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

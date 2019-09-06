@@ -1,0 +1,780 @@
+/*
+ Localizable.strings
+ BookLover
+ 
+ Created by ios 7 on 07/05/18.
+ Copyright © 2018 iOS Team. All rights reserved.
+ */
+
+// SideMenu/SceneTitle Text
+
+HomeSceneTitle ="Anasayfa";
+NotificationsSceneTitle ="Bildirimler";
+ChatSceneTitle ="Mesajlar";
+MyBooksSceneTitle ="Kitaplarım";
+FriendsSceneTitle ="Arkadaşlar";
+SettingsSceneTitle ="Ayarlar";
+MyProfileSceneTitle ="Profil";
+ReaderProfileSceneTitle ="Okursever Profili";
+NumberOfBooksTitle ="Okuduğu Kitap: ";
+CountrySceneTitle ="Ülke" ;
+AddFriendSceneTitle ="Arkadaş Ekle";
+ProfileSceneTitle ="Profil Ayarları";
+EmailVerificationSceneTitle ="E-Posta Doğrulama";
+StateSceneTitle ="Şehir";
+ShareBooksSceneTitle ="Paylaş";
+ReviewSceneTitle ="Yorum";
+ForgotPasswordSceneTitle ="Şifremi Unuttum!";
+ReviewDetailSceneTitle ="Okursever Yorumu";
+MyFriendTitle ="Arkadaşlar";
+AddFriendTitle="Arkadaş Ekle";
+SearchMyFriendTitle ="Ara";
+WantToReadTitle ="Okuyacağım!";
+AgeSelectTitle="Yaş";
+DetailSceneTitle ="Künye";
+NotificationTabTitle ="NELER OLUYOR?";
+FriendRequestTabTitle ="ARKADAŞLIK İSTEKLERİ";
+
+// Home Scene Text
+
+Category ="Kategori";
+RecentlyAddedTitle ="Son Eklenenler";
+MostPopularTitle ="En Sevilenler";
+ViewAllTitle ="Hepsi";
+
+// Onboarding Module Text
+
+loginSceneTitle ="Giriş";
+UserNameTextFieldPlaceholder ="USERNAME";
+PasswordTextFieldPlaceholder ="ŞİFRE";
+ForgotPasswordButtonTitle ="Şifremi Unuttum?" ;
+LoginButtonTitle ="Giriş";
+LoginWithFBButtonTitle ="Facebook ile Giriş";
+RegisterButtonTitle ="Katıl Bize!";
+NewHereTitle ="Okumayı seviyorsan";
+OrTitle ="VEYA";
+EmailAddressPlaceholder ="E-POSTA ADRESİ";
+SubmitButtonTitle ="Kaydet";
+NameTextFieldPlaceholder ="AD";
+LastNamePlaceholder ="SOYAD";
+ConfirmPasswordPlaceholder ="ŞİFRENİ TEKRARLA";
+AlreadyHaveAccountTitle ="Okursever hesabın var mı?";
+CompleteProfileSceneTitle ="Profilini Tamamla";
+AgePlaceholder ="YAŞ";
+GenderPlaceholder ="CİNSİYET";
+CountryPlaceholder ="ÜLKE";
+StatePlaceholder ="ŞEHİR";
+AboutPlaceholder ="HAKKINDA";
+EditPhotoTitle ="Resmini Değiştir";
+SaveChangesButtonTitle ="Değişiklikleri Kaydet";
+SkipButton ="Atla";
+SelectCountryTitle ="Ülke Seç";
+SelectStateTitle ="Şehir Seç";
+SelectGenderTitle ="Cinsiyet Belirt";
+
+// Setting Module Text
+
+AccountSettingsTitle ="Giriş Ayarları";
+ChangeEmailTitle ="E-Posta Adresini Değiştir";
+ResetPasswordTitle ="Şifreni Değiştir";
+DeleteAccountTitle ="Hesabını Sil";
+WantToDeleteTitle ="Bizden ayrılmak istediğine emin misin?";
+ConfirmDeleteTitle ="Evet, Son Kararım";
+EmailVarificationTitle ="E-Posta Doğrulama";
+Enter4DigitCodeTitle ="Devam etmek için e-postana gelen 4 haneli şifreyi gir.";
+DidNotGetCodeTitle ="Şifre gelmedi?";
+ResendCodeTitle ="Şifreyi tekrar gönder!";
+OldPasswordTitle ="Şu anki şifren";
+NewPasswordTitle ="Yeni şifren";
+ConfirmNewPasswordTitle ="Yeni şifreni tekrarla";
+ProfileSettingsTitle ="Profil Gizliliği";
+PrivacySettingsTitle ="Gizlilik Ayarları";
+ReviewsSettingTitile ="Takipçi Gizliliği";
+OtherPrivacyTitle="Diğer";
+LogoutTitle ="Çıkış";
+
+// Privacy Setting Text
+
+profilePrivacy ="Profil Gizliliği";
+reviewsPrivacy ="Takipçi Gizliliği";
+other="Diğer";
+BlockTitle = "Engelle!";
+ReportTitle = "Yöneticiye Raporla";
+
+// Profile Setting Text
+profilePicture ="Profil Resmi ";
+addressEmail ="E-Posta Adresi";
+age="Yaş";
+gender ="Cinsiyet";
+publicTitle ="Herkes";
+friendTitle ="Sadece Arkadaşlarım";
+noOneTitle="Hiç Kimse";
+ReportToAdminMessage ="Kullanıcı tarafımıza raporlandı!";
+SaveSettingTitle = "Ayarları kaydet";
+
+
+// Reviews Privacy Text
+
+whoCanfollowMe ="Kimler takip edebilir?";
+whoCanComment ="Kimler yorum yapabilir?";
+
+// Other Privacy Text
+
+acceptPrivateMessage ="Bana mesaj gönderilmesini kabul ediyorum.";
+lastSeen ="Son görünme tarihi.";
+
+// Reset Password Text
+
+oldPassword ="ŞU ANKİ ŞİFREN";
+newPassword ="YENİ ŞİFREN";
+confirmNewPassword ="YENİ ŞİFRENİ TEKRARLA";
+confirmPassword ="Yeni Şifreni Tekrarla";
+
+// Account Setting Text
+
+emailAddress ="E-POSTA ADRESİ";
+password="ŞİFRE";
+deleteAccount ="Hesabi Sil";
+changeEmail ="E-Postanı Değiştir";
+changePassword ="Şifreni Değiştir";
+
+// Email Verification Text
+
+enter4digitcode =" Devam etmek için e-posta adresine gelen 4 haneli şifreyi gir. ";
+submit="Gönder";
+dontGetTheCode="Şifre gelmedi?";
+resendCode="Şifreyi tekrar gönder.";
+
+// Shelves Scene Text
+
+ShelvesSceneTitle ="Kitaplarım";
+ShelvesSceneReadButton ="OKUDUM";
+ShelvesSceneWantToReadButton ="OKUYACAĞIM";
+ShelvesSceneContinueReadingButton ="OKUYORUM";
+ShelvesSceneCollectionXibName ="BooksCollectionViewCell";
+
+
+// With Out Login Validation Text--
+
+WriteReviewText ="Yorum yapabilmek için giriş yapmalısın.";
+AddToShelfText ="Ekleyebilmek için giriş yapmalısın.";
+RateBookText ="Puan verebilmek için giriş yapmalısın.";
+LikeReviewText ="Yorumu beğenebilmek için giriş yapmalısın.";
+CommentText ="Yorum ekleyebilmek için giriş yapmalısın.";
+ShareBookText ="Kitabı paylaşabilmek için giriş yapmalısın.";
+
+
+// Notification/Friend Request
+
+notification ="NELER OLUYOR?";
+friendRequest ="ARKADAŞLIK İSTEKLERİ";
+accept ="KABUL ET";
+decline="REDDET";
+
+
+//Add Friend Readers/FbReaders
+
+readers ="OKURSEVERLER";
+fbreaders ="FACEBOOK ARKADAŞLARI";
+plusadd ="+ EKLE";
+Filter="KRİTERLER";
+similarInterest ="Benzer Kitap Zevki";
+Cancel ="Vazgeç";
+
+//Book Shelf Pop UP
+
+BookShelvesTitle ="Ekle";
+Read ="Okudum";
+WantToRead ="Okuyacağım";
+Reading ="Okuyorum";
+
+
+//Book Detail Text
+
+AuthorTitle ="Yazar";
+PublisherTitle ="Yayınevi";
+IsbnTitle ="ISBN";
+TotalPageTitle ="Sayfa Sayısı";
+ShareTitle ="Paylaş";
+BookShelfTitle = "Ekle";
+RateTheBookTitle = "Puan Ver";
+BookDescTitle = "ARKA KAPAK YAZISI";
+WriteReviewTitle = "Yorum Yap";
+AllReviewTitle = "Tüm Yorumlar";
+
+
+//MARK:- UserReview
+
+AddYourComment =" Yorum Ekle ";
+Comments ="Yorumlar";
+
+//MARK:- Add Comment
+
+AddYourComment ="Yorumunu Ekle";
+WriteYourCommentHere ="Yorumunu Ekle";
+AddCommentSubmit ="Gönder";
+WriteMessage = "Bir mesaj yaz...";
+
+//MARK:- Rating
+RateAndReviewThisBook ="Puanla ve Yorum Yap";
+RateAndReviewSubmit ="Gönder";
+WriteYourReview ="Yorumun";
+
+
+//MAARK : - Rating Validation
+
+writeRating ="Puan vermek zorunludur.";
+writeDescription ="Description is a required field.";
+writeComment ="Göndermek için önce yorumunu gir.";
+
+
+// MARK : UserPRofile
+
+AgeGender ="YAŞ/CİNSİYET";
+Location="ŞEHİR";
+Joined="GİRİŞ";
+LastActive ="SON GÖRÜNDÜĞÜ TARİH";
+Chat ="Mesajlar";
+SendRequest ="Ekle";
+CancelRequest ="Vazgeç";
+FavouriteBooks ="En Sevdikleri";
+MyFriends="Arkadaşlarım";
+BookShelves="Kitaplık";
+Read ="Okudum";
+WantToRead ="Okuyacağım";
+CurrentlyReading ="Okuyorum";
+About ="Hakkında";
+UnfriendTitle ="Çıkar";
+TypingTitle ="Yazıyor";
+
+
+// MARK : Filter Age
+
+byFiler ="Kriterler";
+ByAge ="Yaş";
+Reset ="Baştan başla";
+ByGender ="Cinsiyet";
+ByLocation ="Bölge";
+Male ="Erkek";
+Female ="Kız";
+TypeLocation ="Ara";
+NearMe="Yakınımda";
+Apply="Uygula";
+Country="ÜLKE";
+State="ŞEHİR";
+
+
+// MARK : Search My Friend
+
+SearchmyFreind ="Ara";
+RecentSearch ="SON ARAMALAR";
+PlusAdd="+ EKLE";
+Search ="Ara";
+
+
+// General Text
+
+SaveTitle ="Kaydet";
+SearchTitle ="Ara";
+ReviewsTitle ="Yorumlar";
+keyboardDoneButton ="Bitti";
+bhd ="BHD";
+ok ="tamam";
+nextButton ="SONRAKİ";
+doneButton ="BİTTİ";
+appName ="okursever";
+no ="HAYIR";
+yes ="EVET";
+cancel ="İptal";
+editRow ="Düzelt";
+deleteRow ="Sil";
+imageUploadedSuccess ="Görsel başarıyla yüklendi";
+pleaseLogin ="Devam etmek için giriş yapmalısın.";
+gpsPermission ="Üzgünüz. Bazı izinler verilmeden bu uygulama düzgün çalışmayabilir. Lütfen telefonunun ayarlar kısmına gidip>>iBeauty>> konumservisleri kısmından 'Uygulamayı Kullanırken veya Her Zaman' seçeneklerinden birini seç.";
+cameraPermission ="Telefon ayarlarından kameranı kulanmamıza onay vermen gerekiyor. ";
+noSalonAvailableMessage ="No salons available";
+noAppointmentsAvailableMessage ="No appointments available";
+permissionHeading ="Üzgünüz, reddedildi.";
+comingSoon ="Yakında..";
+
+
+// Validations Text
+
+//HOME Validation Text --
+
+AddToShelf ="Kitabı beğenebilmek için önce kitaplığına eklemelisin.";
+
+//BookPopUP Validation Text --
+
+AddStatus ="Lütfen üç seçenekten birini seç!";
+
+
+//Complete Profile Validation Text --
+
+SelectCountryFirst ="Önce ülkeni seçmen gerekiyor.";
+MaxAgeLimit ="Yaşın 8 ile 120 arasında olmalı.";
+LoginFirstKey ="Giriş yapman gerekiyor.";
+emptyName ="Adını gir.";
+emptyPhoneNumber ="Telefon numaranı gir.";
+phoneNumberMinLength ="Cep telefon numarası 7 haneden çok olmalıdır. ";
+invalidPhoneNumber ="Yanlış telefon numarası!";
+emptyPassword ="Lütfen şifreni gir.";
+emptyNewPassword ="Lütfen yeni şifreni gir.";
+emptyConfirmPassword ="Lütfen yeni şifreni tekrar gir.";
+confirmPasswordMatch ="Girdiğin şifreler örtüşmüyor.";
+passwordLength ="Enter Password with 6 characters including one uppercase letter, one special character and alphanumeric characters.";
+emptyCountryCode ="Lütfen ülke kodunu gir.";
+emptyEmail ="Lütfen E-Posta adresini gir.";
+invalidEmail ="Yanlış oldu!";
+emptyArea ="Lütfen bulunduğun yeri seç.";
+emptyBirthdate ="Lütfen doğum tarihini gir.";
+
+
+kJsonError ="Üzgünüz. Bir hata oluştu. Lütfen sistem yöneticine danış ya da daha sonra tekrar dene.";
+kServerError =" Üzgünüz. Bir hata oluştu. Lütfen sistem yöneticine danış ya da daha sonra tekrar dene.";
+kNetworkError ="Lütfen internet bağlantını kontrol et ve tekrar dene.";
+
+// Custom Image Picker Text
+
+openCamera ="Kamera";
+openGallery ="Fotoğraflar";
+
+// MARK : Email Verification
+
+otpTitle ="Lütfen kodu gir.";
+
+// MARK : NoDataFound
+
+NoDataFouund ="Veri bulunamadı";
+NoCommentFound ="Yorum bulunamadı!";
+NoNotificationFound ="Bildirim bulunamadı!";
+NoReviewFound ="Yorum bulunamadı!";
+NoBookFound ="Aradığın kitap bulunamadı!";
+NoFriendMatch = "Benzer kitap zevkleri olan okurseverleri görmek için lütfen okuduğun kitapları puanlamaya başla.";
+
+
+// MARK : Sucessfully Message
+
+AccountDeleteSucessfully ="Hesabın başarıyla silindi.";
+FriendRequestAccepted ="Arkadaşlık isteği kabul edildi";
+FriendrequestcancelledSucessfully ="Arkadaşlık isteği iptal edildi.";
+PrivacyPolicyMessage ="Gizlilik ayarı güncellendi.";
+Revieweditedsucessfully ="Yorum değiştirildi.";
+Addratingsucessfully ="Puan verildi.";
+Addcommentssucessfully ="Yorum eklendi.";
+
+
+// MARK : Sucessfully Message
+
+Blockedbyreader ="Okursever tarafından engellendi.";
+
+
+//MARK:- General Validations
+
+CurrentFieldKey ="Bu alan boş bırakılmamalıdır.";
+ProgressLoadingKey ="Yükleniyor...";
+FillAllFieldsKey ="İlerlemek için tüm alanlar doldurulmalıdır.";
+EnterEmailKey ="E-Posta adresi zorunludur.";
+InvalidEmailKey ="Lütfen doğru bir E-Posta adresi gir. ahmetayse@abc.com gibi.";
+EnterPasswordKey ="Şifre girilmesi zorunludur.";
+OldPasswordKey="Eski şifrenin girilmesi zorunludur.";
+ConfirmPasswordKey ="Şifrenin tekrar girilmesi zorunludur.";
+EnterFirstNameKey ="Adını girmen gerekiyor.";
+EnterLastNameKey ="Soyadını girmen gerekiyor.";
+EnterPhoneNumberKey ="Telefon numaranı girmelisin.";
+InvalidPhoneNumberKey ="Lütfen doğru bir telefon numarası girelim.";
+
+PasswordValidaton ="Şifre en az 6 karakter olmalı";
+ConfirmYourPasswordKey ="Şifreyi tekrar girmek zorunludur.";
+MismatchPasswordKey ="Girdiğin şifreler örtüşmüyor!";
+SamePasswordKey ="Yeni şifren eskisinden farklı olmalıdır.";
+MismatchEmailKey ="Yeni E-Posta adresin eskisinden farklı olmalıdır.";
+NoInternetConnectionKey ="İnternet bağlantısı kesildi.";
+TryAgainKey ="Bir hata oluştu, lütfen tekrar dene!";
+EmailAlreadyExistKey ="Bu E-Posta adresini kullanan başka bir kullanıcı bulunmaktadır.";
+ProfileUpadtedKey ="Profil başarıyla güncellendi.";
+
+// Time Strings
+
+YearsAgo = "Yıllar önce";
+OneYearAgo = "1 yıl önce";
+LastYear = "Geçen yıl";
+
+MonthsAgo = "aylar önce";
+OneMonthsAgo = "1 ay önce";
+LastMonth = "Geçen ay";
+
+WeeksAgo = "haftalar önce";
+OneWeekAgo = "1 hafta önce";
+LastWeek = "Geçen hafta";
+
+DaysAgo = "günler önce";
+OneDayAgo = "1 gün önce";
+Yesterday = "Dün";
+
+HoursAgo = "saatler önce";
+OneHourAgo = "1 saat önce";
+AnHourAgo = "Bir saat önce";
+
+MinutesAgo = "dakika önce";
+OneMinuteAgo = "1 dakika önce";
+A_MinuteAgo = "Bir dakika önce";
+
+SecondsAgo = "saniyeler önce";
+JustNow = "Şu anda";
+//// SideMenu/SceneTitle Text
+//
+//HomeSceneTitle = "Home";
+//NotificationsSceneTitle = "Notifications";
+//ChatSceneTitle = "Chat";
+//MyBooksSceneTitle = "My Books";
+//FriendsSceneTitle = "Friends";
+//SettingsSceneTitle = "Settings";
+//MyProfileSceneTitle = "My Profile";
+//ReaderProfileSceneTitle = "Reader Profile";
+//NumberOfBooksTitle = "No. of Books";
+//CountrySceneTitle = "Countries";
+//AddFriendSceneTitle = "Add Friend";
+//ProfileSceneTitle = "Profile Settings";
+//EmailVerificationSceneTitle = "Email Verification";
+//StateSceneTitle = "States";
+//ShareBooksSceneTitle = "Share the Books";
+//ReviewSceneTitle = "Review";
+//ForgotPasswordSceneTitle = "Forgot Password?";
+//ReviewDetailSceneTitle = "User's Review";
+//MyFriendTitle = "My Friends";
+//AddFriendTitle= "Add Friend";
+//SearchMyFriendTitle = "Search My Friends";
+//WantToReadTitle = "Want to Read";
+//AgeSelectTitle= "Age";
+//DetailSceneTitle = "Detail";
+//NotificationTabTitle = "NOTIFICATIONS";
+//FriendRequestTabTitle = "FRIEND REQUESTS";
+//// Home Scene Text
+//
+//Category = "Category";
+//RecentlyAddedTitle = "Recently Added";
+//MostPopularTitle = "Most Popular";
+//ViewAllTitle = "View All";
+//
+//
+//// Onboarding Module Text
+//
+//loginSceneTitle = "Log In";
+//UserNameTextFieldPlaceholder = "USERNAME";
+//PasswordTextFieldPlaceholder = "PASSWORD";
+//ForgotPasswordButtonTitle = "Forgot Password?";
+//LoginButtonTitle = "Log In";
+//LoginWithFBButtonTitle = "Login with Facebook";
+//RegisterButtonTitle = "Register";
+//NewHereTitle = "New Here? ";
+//OrTitle = "OR";
+//EmailAddressPlaceholder = "EMAIL ADDRESS";
+//SubmitButtonTitle = "Submit";
+//NameTextFieldPlaceholder = "FIRST NAME";
+//LastNamePlaceholder = "LAST NAME";
+//ConfirmPasswordPlaceholder = "CONFIRM PASSWORD";
+//AlreadyHaveAccountTitle = "Already have an account?";
+//CompleteProfileSceneTitle = "Complete Profile";
+//AgePlaceholder = "AGE";
+//GenderPlaceholder = "GENDER";
+//CountryPlaceholder = "COUNTRY";
+//StatePlaceholder = "STATE";
+//AboutPlaceholder = "ABOUT";
+//EditPhotoTitle = "Edit Photo";
+//SaveChangesButtonTitle = "Save Changes";
+//SkipButton = "Skip";
+//SelectCountryTitle = "Select Country";
+//SelectStateTitle = "Select State";
+//SelectGenderTitle = "Select Gender";
+//
+//// Setting Module Text
+//
+//AccountSettingsTitle = "Account Settings";
+//ChangeEmailTitle = "Change Email";
+//ResetPasswordTitle = "Reset Password";
+//DeleteAccountTitle = "Delete Account";
+//WantToDeleteTitle = "Are you sure you want to delete the account Permanently";
+//ConfirmDeleteTitle = "Confirm Delete";
+//
+//EmailVarificationTitle = "Email Verification";
+//Enter4DigitCodeTitle = "Enter 4 digit code we sent you via email to continue";
+//DidNotGetCodeTitle = "Didn't get the code";
+//ResendCodeTitle = "Resend Code";
+//OldPasswordTitle = "Old Password";
+//NewPasswordTitle = "New Password";
+//ConfirmNewPasswordTitle = "Confirm New Password";
+//
+//
+//ProfileSettingsTitle = "Profile Settings";
+//PrivacySettingsTitle = "Privacy Settings";
+//ReviewsSettingTitile = "Reviews Settings";
+//OtherPrivacyTitle= "Other Privacy";
+//LogoutTitle = "Logout";
+//
+//
+//
+//// Privacy Setting Text
+//profilePrivacy = "Profile Privacy";
+//reviewsPrivacy = "Reviews Privacy";
+//other= "Other";
+//
+//
+//// Profile Setting Text
+//profilePicture = "Profile Picture";
+//addressEmail = "Email Address";
+//age= "Age";
+//gender = "Gender";
+//publicTitle = "Public";
+//friendTitle = "Friend";
+//noOneTitle= "Only Me";
+//ReportToAdminMessage = "Reader had been reported to admin";
+//
+//// Reviews Privacy Text
+//whoCanfollowMe = "Who can follow me";
+//whoCanComment = "Who can comment";
+//
+//// Other Privacy Text
+//acceptPrivateMessage = "Accept Private message From Everyone";
+//lastSeen = "Last Seen";
+//
+//// Reset Password Text
+//oldPassword = "OLD PASSWORD";
+//newPassword = "NEW PASSWORD";
+//confirmNewPassword = "CONFIRM NEW PASSWORD";
+//confirmPassword = "Confirm Password";
+//
+//// Account Setting Text
+//emailAddress = "EMAIL ADDRESS";
+//password= "PASSWORD";
+//deleteAccount = "Delete Account";
+//changeEmail = "Change Email";
+//changePassword = "Reset Password";
+//
+//// Email Verification Text
+//enter4digitcode = "Enter 4 digit code we sent you via email to continue";
+//submit= "Submit";
+//dontGetTheCode= "Didn't get the code?";
+//resendCode= "Resend Code";
+//
+//// Shelves Scene Text
+//ShelvesSceneTitle = "My Books";
+//ShelvesSceneReadButton = "READ";
+//ShelvesSceneWantToReadButton = "WANT TO READ";
+//ShelvesSceneContinueReadingButton = "CURRENTLY READING";
+//ShelvesSceneCollectionXibName = "BooksCollectionViewCell";
+//
+//
+//// With Out Login Validation Text--
+//WriteReviewText = "Login is required to write review.";
+//AddToShelfText = "Login is required to add book in shelf.";
+//RateBookText = "Login is required to rate the book";
+//LikeReviewText = "Login is required to like the review";
+//CommentText = "Login is required to add comment";
+//ShareBookText = "Login is required to share the book.";
+//
+//
+//// Notification/Friend Request
+//notification = "NOTIFICATION";
+//friendRequest = "FRIEND REQUEST";
+//accept = "ACCEPT";
+//decline= "DECLINE";
+//
+////Add Friend Readers/FbReaders
+//readers = "READERS";
+//fbreaders = "FBREADERS";
+//plusadd = "+ ADD";
+//Filter= "FILTER";
+//similarInterest = "Similar Interests";
+//Cancel = "Cancel";
+//
+////Book Shelf Pop UP
+//BookShelvesTitle = "Bookshelf";
+//Read = "Read";
+//WantToRead = "Want To Read";
+//Reading = "Currently Reading";
+//
+////Book Detail Text
+//AuthorTitle = "Author";
+//PublisherTitle = "Publisher";
+//IsbnTitle = "ISBN";
+//TotalPageTitle = "Total pages";
+//ShareTitle = "Share";
+//BookShelfTitle ="Bookshelf";
+//RateTheBookTitle ="Rate the book";
+//BookDescTitle ="BOOK DESCRIPTION";
+//WriteReviewTitle ="Write Reviews";
+//AllReviewTitle ="All Reviews";
+//
+////MARK:- UserReview
+//
+//AddYourComment = "Add your Comment";
+//Comments = "Comments";
+//
+////MARK:- Add Comment
+//AddYourComment = "Add Your Comment";
+//WriteYourCommentHere = "Write Your Comments";
+//AddCommentSubmit = "Submit";
+//
+////MARK:- Rating
+//RateAndReviewThisBook = "Rate and Review this book";
+//RateAndReviewSubmit = "Submit";
+//WriteYourReview = "Write Your Review";
+//
+//
+////MAARK : - Rating Validation
+//writeRating = "Rating is a required field.";
+//writeDescription = "Description is a required field.";
+//writeComment = "Enter your comment to submit";
+//
+//
+//// MARK : UserPRofile
+//AgeGender = "AGE/GENDER";
+//Location= "LOCATION";
+//Joined= "JOINED";
+//LastActive = "Last Active";
+//Chat = "Chat";
+//SendRequest = "Send Request";
+//CancelRequest = "Cancel Request";
+//FavouriteBooks = "Favourite Books";
+//MyFriends= "My Friends";
+//BookShelves= "Bookshelf";
+//Read = "Read";
+//WantToRead = "Want To Read";
+//CurrentlyReading = "Currently Reading";
+//About = "About";
+//UnfriendTitle = "Unfriend";
+//TypingTitle = "Typing";
+//
+//
+//// MARK : Filter Age
+//byFiler = "Filter By";
+//ByAge = "Age";
+//Reset = "Reset";
+//ByGender = "Gender";
+//ByLocation = "Location";
+//Male = "Male";
+//Female = "Female";
+//TypeLocation = "Type a country, state area";
+//NearMe= "Near Me";
+//Apply= "Apply";
+//Country= "COUNTRY";
+//State= "STATE";
+//
+//// MARK : Search My Friend
+//SearchmyFreind = "Search my Freind";
+//RecentSearch = "RECENT SEARCH";
+//PlusAdd= "+ ADD";
+//Search = "Search";
+//
+//// General Text
+//
+//SaveTitle = "Save";
+//SearchTitle = "Search";
+//ReviewsTitle = "Reviews";
+//keyboardDoneButton = "Done";
+//bhd = "BHD";
+//ok = "OK";
+//nextButton = "NEXT";
+//doneButton = "DONE";
+//appName = "okursever";
+//no = "NO";
+//yes = "YES";
+//cancel = "Cancel";
+//editRow = "Edit";
+//deleteRow = "Delete";
+//imageUploadedSuccess = "Image uploaded successfully";
+//pleaseLogin = "Please login to continue";
+//gpsPermission = "Sorry, This App may not work properly without permissions. So Please go to Settings>>iBeauty>>Location & select 'While Using the App or Always' options.";
+//cameraPermission = "Please enable camera permission for this App in your device settings";
+//noSalonAvailableMessage = "No salons available";
+//noAppointmentsAvailableMessage = "No appointments available";
+//permissionHeading = "Sorry, Permissions Denied.";
+//comingSoon = "Coming Soon..";
+//
+//
+//// Validations Text
+//
+////HOME Validation Text --
+//
+//AddToShelf = "To like the book, please add book in shelf first";
+//
+////BookPopUP Validation Text --
+//
+//AddStatus = "Please select a status";
+//
+////Complete Profile Validation Text --
+//SelectCountryFirst = "Please select country first.";
+//MaxAgeLimit = "Age must be between 12 and 120";
+//LoginFirstKey = "Login is required.";
+//emptyName = "Please enter your name.";
+//emptyPhoneNumber = "Please enter your phone number.";
+//phoneNumberMinLength = "Mobile number should be greater than 7";
+//invalidPhoneNumber = "Phone number is invalid.";
+//emptyPassword = "Please enter your password.";
+//emptyNewPassword = "Please enter your new password.";
+//emptyConfirmPassword = "Please enter the confirm password.";
+//confirmPasswordMatch = "The new and confirm password does not match.";
+//passwordLength = "Enter Password with 6 characters including one uppercase letter, one special character and alphanumeric characters.";
+//emptyCountryCode = "Please select country code.";
+//emptyEmail = "Please enter your email-id.";
+//invalidEmail = "Please enter a valid email-id.";
+//emptyArea = "Please select your area.";
+//emptyBirthdate = "Please select your birth date.";
+//
+//kJsonError = "We are sorry, An error has occurred. So please contact your administrator or try again later.";
+//kServerError = "We are sorry, An error has occurred. So please contact your administrator or try again later.";
+//kNetworkError = "No Internet found. Check your connection and try again";
+//
+//// Custom Image Picker Text
+//openCamera = "Camera";
+//openGallery = "Gallery";
+//
+//// MARK : Email Verification
+//otpTitle = "Please Enter your otp";
+//
+//// MARK : NoDataFound
+//NoDataFouund = "No Data Found";
+//NoCommentFound = "No Comment Found";
+//NoNotificationFound = "No Notification Found";
+//NoReviewFound = "No Review Found";
+//NoBookFound = "No Book Found";
+//NoFriendFound = "No Friend Found";
+//
+//// MARK : Sucessfully Message
+//AccountDeleteSucessfully = "Account Deleted successfully";
+//FriendRequestAccepted = "Friend request has been accept";
+//FriendrequestcancelledSucessfully = "Friend request has been cancelled";
+//PrivacyPolicyMessage = "Privacy policy has been updated";
+//Revieweditedsucessfully = "Reviewedited sucessfully" ;
+//Addratingsucessfully = "Add rating sucessfully";
+//Addcommentssucessfully = "Add comments sucessfully";
+//
+//// MARK : Sucessfully Message
+//Blockedbyreader = "Blocked by reader";
+//
+////MARK:- General Validations
+//
+//CurrentFieldKey = " Field should not be empty";
+//ProgressLoadingKey = "Loading...";
+//FillAllFieldsKey = "All fields must be filled to procede";
+//EnterEmailKey = "Email Address is a required field.";
+//InvalidEmailKey = "Enter a valid email address. For example johndoe@domain.com.";
+//EnterPasswordKey = "Password is a required field.";
+//OldPasswordKey= "Old password is a required field.";
+//ConfirmPasswordKey = "Confirm password is a required field.";
+//EnterFirstNameKey = "First name is a required field.";
+//EnterLastNameKey = "Last name is a required field.";
+//EnterPhoneNumberKey = "Phone number is a required field.";
+//InvalidPhoneNumberKey = "Enter valid phone number";
+//PasswordLengthKey = "Enter Password with 6 characters including one uppercase letter, one special character and alphanumeric characters.";
+//PasswordValidaton = "Password should be 6 characters atleast";
+////PasswordLengthKey = "Password must be greater than 6 chracters";
+//ConfirmYourPasswordKey = "Confirm password is a required field.";
+//MismatchPasswordKey = "Current Password must match to Confirm Password.";
+//SamePasswordKey = "Current Password must be different than Old Password.";
+//MismatchEmailKey = "Current email address must be different than Old email address.";
+//NoInternetConnectionKey = "Lost internet connection";
+//TryAgainKey = "Something went wrong, please try again!";
+//EmailAlreadyExistKey = "A customer with the same email already exists in an associated website.";
+//ProfileUpadtedKey = "Profile has been updated successfully.";

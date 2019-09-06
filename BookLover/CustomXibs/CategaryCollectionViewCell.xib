@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategaryCollectionViewCell" id="gTV-IL-0wX" customClass="CategaryCollectionViewCell" customModule="BookLover" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="462" height="50"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DCu-YA-KVf">
+                        <rect key="frame" x="0.0" y="0.0" width="462" height="50"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOVEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOR-NQ-4zH" customClass="UILabelFontSize" customModule="BookLover" customModuleProvider="target">
+                                <rect key="frame" x="5" y="5" width="452" height="40"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mOR-NQ-4zH" secondAttribute="bottom" constant="5" id="EbB-bG-zTp"/>
+                            <constraint firstItem="mOR-NQ-4zH" firstAttribute="leading" secondItem="DCu-YA-KVf" secondAttribute="leading" constant="5" id="lhq-zx-CvP"/>
+                            <constraint firstAttribute="trailing" secondItem="mOR-NQ-4zH" secondAttribute="trailing" constant="5" id="us6-b6-c85"/>
+                            <constraint firstItem="mOR-NQ-4zH" firstAttribute="top" secondItem="DCu-YA-KVf" secondAttribute="top" constant="5" id="zRr-6W-8yX"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="DCu-YA-KVf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1H8-Zo-Pct"/>
+                <constraint firstAttribute="trailing" secondItem="DCu-YA-KVf" secondAttribute="trailing" id="7el-pg-Cex"/>
+                <constraint firstAttribute="bottom" secondItem="DCu-YA-KVf" secondAttribute="bottom" id="V8G-Eh-mvG"/>
+                <constraint firstItem="DCu-YA-KVf" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fti-Mb-5s0"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="462" height="50"/>
+            <connections>
+                <outlet property="lblCategaryName" destination="mOR-NQ-4zH" id="LEa-Ms-W9Z"/>
+            </connections>
+            <point key="canvasLocation" x="174" y="18"/>
+        </collectionViewCell>
+    </objects>
+</document>

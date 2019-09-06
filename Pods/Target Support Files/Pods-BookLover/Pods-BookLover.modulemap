@@ -1,0 +1,6 @@
+framework module Pods_BookLover {
+  umbrella header "Pods-BookLover-umbrella.h"
+
+  export *
+  module * { export * }
+}
